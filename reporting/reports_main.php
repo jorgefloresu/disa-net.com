@@ -180,6 +180,15 @@ $reports->addReport(_('Inventory'),305,_('&GRN Valuation Report'),
 			_('End Date') => 'DATEENDM',
 			_('Comments') => 'TEXTBOX',
 			_('Destination') => 'DESTINATION'));
+$reports->addReport(_('Inventory'),306,_('Reporte de Movimientos de Inventario'),
+	array(	_('Start Date') => 'DATEBEGINM',
+			_('End Date') => 'DATEENDM',
+			_('Inventory Category') => 'CATEGORIES',
+			_('Location') => 'LOCATIONS',
+			_('Customer') => 'CUSTOMERS_NO_FILTER',
+			_('Comments') => 'TEXTBOX',
+			_('Destination') => 'DESTINATION'));
+
 
 $reports->addReportClass(_('Manufacturing'));
 $reports->addReport(_('Manufacturing'),401,_('&Bill of Material Listing'),
