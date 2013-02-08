@@ -1,0 +1,31 @@
+version=pmwiki-2.2.8 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+author=admin
+charset=ISO-8859-1
+csum=
+ctime=1260849305
+host=190.86.10.206
+name=Pymenet.BuscarOrdenesDeCompraPendientes
+rev=6
+targets=
+text=(:title Mantenimiento de Ordenes de Compra Pendientes:)%0a----%0a%25width=570px%25 http://www.distribuidoramarcela.com/FA/pmwiki/images/recibir_productos.gif%0aPasos:%0a%0a# Ubicar la Orden de Compra de la que se desea recibir los productos, y dar clic en http://www.distribuidoramarcela.com/FA/pmwiki/images/recibir_despachar.gif.%0a# Después de realizada esta operación, todos los productos que estén en esta Orden pasarán a incrementar las existencias de su Inventario.
+time=1266015942
+title=Mantenimiento de Ordenes de Compra Pendientes
+author:1266015942=admin
+diff:1266015942:1260849761:=3c3%0a%3c %25width=570px%25 http://www.distribuidoramarcela.com/FA/pmwiki/images/recibir_productos.gif%0a---%0a> %25width=570px%25 http://www.disa-net.com/FA/pmwiki/images/recibir_productos.gif%0a6c6%0a%3c # Ubicar la Orden de Compra de la que se desea recibir los productos, y dar clic en http://www.distribuidoramarcela.com/FA/pmwiki/images/recibir_despachar.gif.%0a---%0a> # Ubicar la Orden de Compra de la que se desea recibir los productos, y dar clic en http://www.disa-net.com/FA/pmwiki/images/recibir_despachar.gif.%0a
+host:1266015942=190.86.10.206
+author:1260849761=Jorge Flores
+diff:1260849761:1260849664:=6,7c6%0a%3c # Ubicar la Orden de Compra de la que se desea recibir los productos, y dar clic en http://www.disa-net.com/FA/pmwiki/images/recibir_despachar.gif.%0a%3c # Después de realizada esta operación, todos los productos que estén en esta Orden pasarán a incrementar las existencias de su Inventario.%0a\ No newline at end of file%0a---%0a> # Ubicar la Orden de Compra de la que se desea recibir los productos, y dar clic en http://www.disa-net.com/FA/pmwiki/images/recibir_despachar.gif.%0a\ No newline at end of file%0a
+host:1260849761=190.86.7.160
+author:1260849664=Jorge Flores
+diff:1260849664:1260849489:=6c6%0a%3c # Ubicar la Orden de Compra de la que se desea recibir los productos, y dar clic en http://www.disa-net.com/FA/pmwiki/images/recibir_despachar.gif.%0a\ No newline at end of file%0a---%0a> # Se selecciona la Orden de Compra de la que se desea recibir los productos%0a\ No newline at end of file%0a
+host:1260849664=190.86.7.160
+author:1260849489=Jorge Flores
+diff:1260849489:1260849366:=1c1%0a%3c (:title Mantenimiento de Ordenes de Compra Pendientes:)%0a---%0a> Mantenimiento de Ordenes de Compra Pendientes%0a4,5d3%0a%3c Pasos:%0a%3c %0a
+host:1260849489=190.86.7.160
+author:1260849366=Jorge Flores
+diff:1260849366:1260849305:=3c3%0a%3c %25width=570px%25 http://www.disa-net.com/FA/pmwiki/images/recibir_productos.gif%0a---%0a> http://www.disa-net.com/FA/pmwiki/images/recibir_productos.gif%0a
+host:1260849366=190.86.7.160
+author:1260849305=Jorge Flores
+diff:1260849305:1260849305:=1,4d0%0a%3c Mantenimiento de Ordenes de Compra Pendientes%0a%3c ----%0a%3c http://www.disa-net.com/FA/pmwiki/images/recibir_productos.gif%0a%3c # Se selecciona la Orden de Compra de la que se desea recibir los productos%0a\ No newline at end of file%0a
+host:1260849305=190.86.7.160

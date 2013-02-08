@@ -1,0 +1,103 @@
+version=pmwiki-2.2.8 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+author=admin
+charset=ISO-8859-1
+csum=
+ctime=1260761825
+host=190.86.10.206
+name=Pymenet.CrearOrdenDeCompra
+rev=30
+targets=
+text=(:title Crear Orden de Compra:)%0a!!!Encabezado de la Orden de Compra%0a----%0a%25width=570px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0aPasos:%0a%0a# Seleccione el '''Proveedor'''. Si solo existe uno, éste aparecerá en forma predeterminada.%0a# La '''Referencia''' es el correlativo de las compras efectuadas. Este es un valor que el sistema coloca automáticamente.%0a# La '''Fecha de Orden''' es la fecha en la que se realiza la compra. También aparece automáticamente con la fecha del día actual.%0a# En la '''Referencia del Proveedor''' puede colocar el número de la factura o comprobante de compra del proveedor. Este dato es opcional.%0a# Si tiene varias bodegas o centros de distribución, en '''Recibir en''' puede seleccionar el que aplique. Si solo tiene un centro, éste aparecerá en forma predeterminada.%0a# Puede ingresar en forma opcional el nombre de la persona que va a recibir los productos que se compran en '''Entregar a'''. Este dato es opcional.%0a%0a!!!Detalle de la Orden de Compra%0a----%0a%25width=570px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_detalle.gif%0aPasos:%0a%0a# De la columna '''Descripción del artículo''' elija el producto que desee agregar al detalle de la compra. Al elegirlo, se colocará automáticamente el precio de compra del producto ('''Precio''') y su unidad de medida correspondiente ('''Unidad''').%0a# Luego en la columna '''Cantidad''' ingrese la cantidad de producto que va a comprar.%0a# Haga clic en http://www.disa-net.com/FA/pmwiki/images/boton_agregar.gif para continuar agregando mas productos en la compra.%0a# Si ya no desea seguir agregando productos, haga clic en http://www.disa-net.com/FA/pmwiki/images/boton_colocar_orden.gif. Esto dará por terminada la orden y alimentará provisionalmente al inventario.
+time=1266015909
+title=Crear Orden de Compra
+author:1266015909=admin
+diff:1266015909:1266015727:=4c4%0a%3c %25width=570px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a---%0a> %25width=570px%25 ./images/orden_venta_encab.gif%0a16c16%0a%3c %25width=570px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_detalle.gif%0a---%0a> %25width=570px%25 http://www.distribuidoraaviles.com/FA/pmwiki/images/orden_venta_detalle.gif%0a21,22c21,22%0a%3c # Haga clic en http://www.disa-net.com/FA/pmwiki/images/boton_agregar.gif para continuar agregando mas productos en la compra.%0a%3c # Si ya no desea seguir agregando productos, haga clic en http://www.disa-net.com/FA/pmwiki/images/boton_colocar_orden.gif. Esto dará por terminada la orden y alimentará provisionalmente al inventario.%0a\ No newline at end of file%0a---%0a> # Haga clic en http://www.disa-net.com/FA/pmwiki/images/boton_agregar.gif para continuar agregando mas productos en la compra.%0a> # Si ya no desea seguir agregando productos, haga clic en http://www.disa-net.com/FA/pmwiki/images/boton_colocar_orden.gif. Esto dará por terminada la orden y alimentará provisionalmente al inventario.%0a\ No newline at end of file%0a
+host:1266015909=190.86.10.206
+author:1266015727=admin
+diff:1266015727:1260807758:=4c4%0a%3c %25width=570px%25 ./images/orden_venta_encab.gif%0a---%0a> %25width=570px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a
+host:1266015727=190.86.10.206
+author:1260807758=Jorge Flores
+diff:1260807758:1260807684:=16d15%0a%3c %25width=570px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_detalle.gif%0a
+host:1260807758=190.86.7.160
+author:1260807684=Jorge Flores
+diff:1260807684:1260807658:=4c4%0a%3c %25width=570px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a---%0a> %25width=560px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a
+host:1260807684=190.86.7.160
+author:1260807658=Jorge Flores
+diff:1260807658:1260798744:=4c4%0a%3c %25width=560px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a---%0a> %25width=550px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a
+host:1260807658=190.86.7.160
+author:1260798744=Jorge Flores
+diff:1260798744:1260798695:=4c4%0a%3c %25width=550px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a---%0a> %25width=600px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a
+host:1260798744=190.86.0.8
+author:1260798695=Jorge Flores
+diff:1260798695:1260798674:=4c4%0a%3c %25width=600px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a---%0a> %25width=500px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a
+host:1260798695=190.86.0.8
+author:1260798674=Jorge Flores
+diff:1260798674:1260798313:=4c4%0a%3c %25width=500px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a---%0a> %25width=200px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a
+host:1260798674=190.86.0.8
+author:1260798313=Jorge Flores
+diff:1260798313:1260765851:=4d3%0a%3c %25width=200px%25 http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif%0a
+host:1260798313=190.86.0.8
+author:1260765851=Jorge Flores
+diff:1260765851:1260765689:=19c19%0a%3c # Haga clic en http://www.disa-net.com/FA/pmwiki/images/boton_agregar.gif para continuar agregando mas productos en la compra.%0a---%0a> # Haga clic en '''Agregar''' para continuar agregando mas productos en la compra.%0a
+host:1260765851=190.86.15.110
+author:1260765689=Jorge Flores
+diff:1260765689:1260765655:=2c2%0a%3c !!!Encabezado de la Orden de Compra%0a---%0a> !!Encabezado de la Orden de Compra%0a13c13%0a%3c !!!Detalle de la Orden de Compra%0a---%0a> !!Detalle de la Orden de Compra%0a
+host:1260765689=190.86.15.110
+author:1260765655=Jorge Flores
+diff:1260765655:1260764461:=3a4%0a> http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif %0a14a16%0a> http://www.disa-net.com/FA/pmwiki/images/orden_venta_detalle.gif %0a
+host:1260765655=190.86.15.110
+author:1260764461=Jorge Flores
+diff:1260764461:1260764352:=22c22%0a%3c # Si ya no desea seguir agregando productos, haga clic en http://www.disa-net.com/FA/pmwiki/images/boton_colocar_orden.gif. Esto dará por terminada la orden y alimentará provisionalmente al inventario.%0a\ No newline at end of file%0a---%0a> # Si ya no desea seguir agregando productos, haga clic en http://www.disa-net.com/FA/pmwiki/images/boton_colocar_orden.gif%0a\ No newline at end of file%0a
+host:1260764461=190.86.15.110
+author:1260764352=Jorge Flores
+diff:1260764352:1260764176:=22c22%0a%3c # Si ya no desea seguir agregando productos, haga clic en http://www.disa-net.com/FA/pmwiki/images/boton_colocar_orden.gif%0a\ No newline at end of file%0a---%0a> # Si ya no desea seguir agregando productos, haga clic en '''Colocar Orden'''.%0a\ No newline at end of file%0a
+host:1260764352=190.86.15.110
+author:1260764176=Jorge Flores
+diff:1260764176:1260763819:=19,22c19%0a%3c # De la columna '''Descripción del artículo''' elija el producto que desee agregar al detalle de la compra. Al elegirlo, se colocará automáticamente el precio de compra del producto ('''Precio''') y su unidad de medida correspondiente ('''Unidad''').%0a%3c # Luego en la columna '''Cantidad''' ingrese la cantidad de producto que va a comprar.%0a%3c # Haga clic en '''Agregar''' para continuar agregando mas productos en la compra.%0a%3c # Si ya no desea seguir agregando productos, haga clic en '''Colocar Orden'''.%0a\ No newline at end of file%0a---%0a> # De la columna '''Descripción del artículo''' elija el producto que desee agregar al detalle de la compra. Al elegirlo, se colocará automáticamente el precio de compra del producto ('''Precio''') y su unidad de medida correspondiente ('''Unidad''').%0a\ No newline at end of file%0a
+host:1260764176=190.86.15.110
+author:1260763819=Jorge Flores
+diff:1260763819:1260763549:=18,19d17%0a%3c %0a%3c # De la columna '''Descripción del artículo''' elija el producto que desee agregar al detalle de la compra. Al elegirlo, se colocará automáticamente el precio de compra del producto ('''Precio''') y su unidad de medida correspondiente ('''Unidad''').%0a\ No newline at end of file%0a
+host:1260763819=190.86.15.110
+author:1260763549=Jorge Flores
+diff:1260763549:1260763116:=12,17c12%0a%3c # Puede ingresar en forma opcional el nombre de la persona que va a recibir los productos que se compran en '''Entregar a'''. Este dato es opcional.%0a%3c %0a%3c !!Detalle de la Orden de Compra%0a%3c ----%0a%3c http://www.disa-net.com/FA/pmwiki/images/orden_venta_detalle.gif %0a%3c Pasos:%0a---%0a> # Puede ingresar en forma opcional el nombre de la persona que va a recibir los productos que se compran en '''Entregar a'''. Este dato es opcional.%0a\ No newline at end of file%0a
+host:1260763549=190.86.15.110
+author:1260763116=Jorge Flores
+diff:1260763116:1260763100:=4a5%0a> %0a
+host:1260763116=190.86.15.110
+author:1260763100=Jorge Flores
+diff:1260763100:1260763060:=2c2%0a%3c !!Encabezado de la Orden de Compra%0a---%0a> Encabezado de la Orden de Compra%0a
+host:1260763100=190.86.15.110
+author:1260763060=Jorge Flores
+diff:1260763060:1260763020:=2,3d1%0a%3c Encabezado de la Orden de Compra%0a%3c ----%0a
+host:1260763060=190.86.15.110
+author:1260763020=Jorge Flores
+diff:1260763020:1260762923:=10,11c10%0a%3c # Si tiene varias bodegas o centros de distribución, en '''Recibir en''' puede seleccionar el que aplique. Si solo tiene un centro, éste aparecerá en forma predeterminada.%0a%3c # Puede ingresar en forma opcional el nombre de la persona que va a recibir los productos que se compran en '''Entregar a'''. Este dato es opcional.%0a\ No newline at end of file%0a---%0a> # Si tiene varias bodegas o centros de distribución, en '''Recibir en''' puede seleccionar el que aplique. Si solo tiene un centro, éste aparecerá en forma predeterminada.%0a\ No newline at end of file%0a
+host:1260763020=190.86.15.110
+author:1260762923=Jorge Flores
+diff:1260762923:1260762732:=8,10c8%0a%3c # La '''Fecha de Orden''' es la fecha en la que se realiza la compra. También aparece automáticamente con la fecha del día actual.%0a%3c # En la '''Referencia del Proveedor''' puede colocar el número de la factura o comprobante de compra del proveedor. Este dato es opcional.%0a%3c # Si tiene varias bodegas o centros de distribución, en '''Recibir en''' puede seleccionar el que aplique. Si solo tiene un centro, éste aparecerá en forma predeterminada.%0a\ No newline at end of file%0a---%0a> # La '''Fecha de Orden''' es la fecha en la que se realiza la compra. También aparece automáticamente con la fecha del día actual.%0a\ No newline at end of file%0a
+host:1260762923=190.86.15.110
+author:1260762732=Jorge Flores
+diff:1260762732:1260762640:=7,8c7%0a%3c # La '''Referencia''' es el correlativo de las compras efectuadas. Este es un valor que el sistema coloca automáticamente.%0a%3c # La '''Fecha de Orden''' es la fecha en la que se realiza la compra. También aparece automáticamente con la fecha del día actual.%0a\ No newline at end of file%0a---%0a> # La '''Referencia''' es el correlativo de las compras efectuadas. Este es un valor que el sistema coloca automáticamente.%0a\ No newline at end of file%0a
+host:1260762732=190.86.15.110
+author:1260762640=Jorge Flores
+diff:1260762640:1260762357:=3,7d2%0a%3c %0a%3c Pasos:%0a%3c %0a%3c # Seleccione el '''Proveedor'''. Si solo existe uno, éste aparecerá en forma predeterminada.%0a%3c # La '''Referencia''' es el correlativo de las compras efectuadas. Este es un valor que el sistema coloca automáticamente.%0a\ No newline at end of file%0a
+host:1260762640=190.86.15.110
+author:1260762357=Jorge Flores
+diff:1260762357:1260762099:=1d0%0a%3c (:title Crear Orden de Compra:)%0a
+host:1260762357=190.86.15.110
+author:1260762099=Jorge Flores
+diff:1260762099:1260762039:=1c1,2%0a%3c http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif %0a---%0a> http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif "Paper clips" | [- %25newwin%25 [[%0a> Wikipedia:Paper_clips | Paper clips ]] are ''fun'' to work with. -]%0a\ No newline at end of file%0a
+host:1260762099=190.86.15.110
+author:1260762039=Jorge Flores
+diff:1260762039:1260761900:=
+host:1260762039=190.86.15.110
+author:1260761900=Jorge Flores
+diff:1260761900:1260761862:=1c1%0a%3c http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif "Paper clips" | [- %25newwin%25 [[%0a---%0a> http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif"Paper clips" | [- %25newwin%25 [[%0a
+host:1260761900=190.86.15.110
+author:1260761862=Jorge Flores
+diff:1260761862:1260761825:=1c1%0a%3c http://www.disa-net.com/FA/pmwiki/images/orden_venta_encab.gif"Paper clips" | [- %25newwin%25 [[%0a---%0a> images/orden_venta_encab.gif"Paper clips" | [- %25newwin%25 [[%0a
+host:1260761862=190.86.15.110
+author:1260761825=Jorge Flores
+diff:1260761825:1260761825:=1,2d0%0a%3c images/orden_venta_encab.gif"Paper clips" | [- %25newwin%25 [[%0a%3c Wikipedia:Paper_clips | Paper clips ]] are ''fun'' to work with. -]%0a\ No newline at end of file%0a
+host:1260761825=190.86.15.110

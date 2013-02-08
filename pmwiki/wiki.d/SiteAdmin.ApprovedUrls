@@ -1,0 +1,22 @@
+version=pmwiki-2.2.8 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+author=jafu
+charset=ISO-8859-1
+ctime=1260765205
+host=190.62.145.35
+name=SiteAdmin.ApprovedUrls
+rev=4
+text=%0a  http://www.distribuidoraaviles.com%0a  http://www.distribuidoramarcela.com%0a  http://www.disa-net.com%0a  http://www.screencast.com%0a
+time=1352604457
+author:1352604457=jafu
+diff:1352604457:1352599168:=5d4%0a%3c   http://www.screencast.com%0a
+host:1352604457=190.62.145.35
+author:1352599168=
+diff:1352599168:1266015914:=4d3%0a%3c   http://www.disa-net.com%0a
+host:1352599168=190.62.145.35
+author:1266015914=admin
+diff:1266015914:1260765205:=3d2%0a%3c   http://www.distribuidoramarcela.com%0a
+host:1266015914=190.86.10.206
+author:1260765205=Jorge Flores
+diff:1260765205:1260765205:=1,2d0%0a%3c %0a%3c   http://www.distribuidoraaviles.com%0a
+host:1260765205=190.86.15.110

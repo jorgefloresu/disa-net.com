@@ -1,0 +1,2 @@
+[10-dic-2009 11:14:27] 0:admin:session.inc:251: include_once(../../company/0/installed_extensions.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No existe el fichero o el directorio
+[10-dic-2009 11:14:27] 0:admin:session.inc:251: include_once() [<a href='function.include'>function.include</a>]: Failed opening '../../company/0/installed_extensions.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php')

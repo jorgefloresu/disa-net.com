@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+
+<title>$WikiTitle | $Group &raquo; $Title | $action</title>
+
+<!--HeaderText-->
+
+<link rel='alternate' title='$WikiTitle RSS' href='$ScriptUrl/$SiteGroup/AllRecentChanges?action=rss' type='text/xml' />
+<link rel='icon'  type='image/gif' href='$SkinDirUrl/gfx/favicon.ico' />
+<link rel="shortcut icon" href="$SkinDirUrl/gfx/favicon.ico" />
+<link rel='stylesheet' href='$PubDirUrl/css/local.css' type='text/css' />
+<link rel='stylesheet' href='$SkinDirUrl/flckr.css' type='text/css' />
+
+</head>
+
+<body>
+
+<div class='container'>
+
+<!--PageHeadFmt-->
+	<div class='topbar'>
+		<span class='login difer'>
+			<a accesskey='h' rel="nofollow" href="$ScriptUrl">$[Home]</a> |
+			<a accesskey='i' rel="nofollow" href="$PageUrl?action=login">$[Login]</a>/<a accesskey="o" rel="nofollow" href="$PageUrl?action=logout">$[out]</a>
+		</span>
+		<span class='misc difer'>
+			<a accesskey='c' href="$ScriptUrl?action=emailform">$[Contact]</a> |
+			<a accesskey='m' href="$ScriptUrl/Site/Search?q=Help">$[Help]</a>
+		</span>
+	</div>
+
+	<div class='head'>
+		<div class='title'>
+			<h1> $WikiTitle </h1>
+		</div>
+		<div class='search'>
+
+			<form  class='wikisearch' action='$PageUrl' method='get'>
+				<p>
+				<input type='text' name='q' value='$[Search]' size='18' />
+				<input type='submit' class='searchbutton' value='&gt;&gt;' />
+				<input type='hidden' name='action' value='search' />
+				</p>
+			</form>
+
+		</div>
+	</div>
+
+	<div class='infobar'>
+		<div class='time'>
+			$CurrentTime
+		</div>
+		<div class='breadcrumbs'>
+			<a href='$ScriptUrl/$Group'>$Group</a> <span class='raquo'>&raquo;</span> <a href='$ScriptUrl/$Group/$Name'>$Name</a>
+		</div>
+		<div class='actions right'>
+			<a rel="nofollow" accesskey='v' href='$PageUrl'>$[View]</a>&nbsp;
+			<a rel="nofollow" accesskey='e' href='$PageUrl?action=edit'>$[Edit]</a>&nbsp;
+			<a rel="nofollow" accesskey='h' href='$PageUrl?action=diff'>$[History]</a>&nbsp;
+			<a rel="nofollow" accesskey='a' href='$PageUrl?action=upload'>$[Attach]</a>&nbsp;
+			<a rel="nofollow" accesskey='p' href='$PageUrl?action=print'>$[Print]</a>
+		</div>
+	</div>
+<!--/PageHeadFmt-->
+
+
+<!--PageContFmt-->
+	<div class='content'>
+		<div class='line'>
+			<div class='text'>
+				<h1>$Title</h1>
+				<!--PageText-->
+			</div>
+<!--PageLeftFmt-->
+			<div class='sidebar'>
+				<!--wiki:$SiteGroup.SideBar $Group.SideBar-->
+			</div>
+		</div>
+<!--/PageLeftFmt-->
+	</div>
+<!--/PageContFmt-->
+
+<!--PageFootFmt-->
+	<div class='foot'>
+		<div class='footini'>
+			<div class='actions left'>
+				<a rel="nofollow" accesskey='d' href='$ScriptUrl/$Group/SideBar?action=edit'>$[Edit SideBar]</a>
+			</div>
+			<div class='actions center'>
+				<a rel="nofollow" accesskey='r' href='$ScriptUrl/$Group/RecentChanges'>$[Recent Changes]</a> 
+				<a rel="nofollow" accesskey='l' href='$ScriptUrl/$SiteGroup/AllRecentChanges'>$[All Recent Changes]</a>
+			</div>
+			<div class='actions right'>
+				<a rel="nofollow" accesskey='v' href='$PageUrl'>$[View]</a>&nbsp;
+				<a rel="nofollow" accesskey='e' href='$PageUrl?action=edit'>$[Edit]</a>&nbsp;
+				<a rel="nofollow" accesskey='h' href='$PageUrl?action=diff'>$[History]</a>&nbsp;
+				<a rel="nofollow" accesskey='a' href='$PageUrl?action=upload'>$[Attach]</a>&nbsp;
+				<a rel="nofollow" accesskey='p' href='$PageUrl?action=print'>$[Print]</a>
+			</div>
+		</div>
+
+		<div class='footmid'>
+			<div class='validate difer'>
+				<a href="http://validator.w3.org/check/referer" rel="nofollow">XHTML</a> and
+				<a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow">CSS</a> valid.
+			</div>
+			<div class='lastmodified difer'> 
+				$[Last modified on {$LastModified}]
+			</div>
+			<div class='feeds difer'>
+				Web Feeds &raquo; <a class='wikilink' href='$ScriptUrl/$SiteGroup/AllRecentChanges?action=rss'>RSS</a> &nbsp;
+				<a class='wikilink' href='$ScriptUrl/$SiteGroup/AllRecentChanges?action=atom'>Atom</a>
+			</div>
+		</div>
+
+		<div class='footend'>
+			<div class='skinby'>
+				skin by CarlosAB
+			</div>
+			<div class='poweredby'>
+				Powered by PmWiki
+			</div>
+			<div class='license'>
+				copyleft
+			</div>
+		</div>
+	</div>
+<!--/PageFootFmt-->
+</div>
+
+</body>
+</html>

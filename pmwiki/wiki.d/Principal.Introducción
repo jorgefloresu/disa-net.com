@@ -1,0 +1,15 @@
+version=pmwiki-2.2.8 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+author=Jorge Flores
+charset=ISO-8859-1
+csum=
+ctime=1260760534
+host=190.86.15.110
+name=Principal.Introducción
+rev=1
+targets=
+text=Tópico pendiente
+time=1260760534
+author:1260760534=Jorge Flores
+diff:1260760534:1260760534:=1d0%0a%3c Tópico pendiente%0a\ No newline at end of file%0a
+host:1260760534=190.86.15.110

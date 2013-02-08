@@ -1,0 +1,24 @@
+version=pmwiki-2.2.8 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+author=Jorge Flores
+charset=ISO-8859-1
+csum=
+ctime=1260755507
+host=190.86.15.110
+name=Main.Inicio
+rev=4
+targets=
+text=Para hacer uso inmediato del Sistema, se deben seguir los siguientes procesos:%0a%0a# Elaborar una Orden de Compra%0a# Recibir los Productos de la Orden de Compra%0a%0a----
+time=1260758433
+author:1260758433=Jorge Flores
+diff:1260758433:1260757554:=1,5c1%0a%3c Para hacer uso inmediato del Sistema, se deben seguir los siguientes procesos:%0a%3c %0a%3c # Elaborar una Orden de Compra%0a%3c # Recibir los Productos de la Orden de Compra%0a%3c %0a---%0a> Esta es la página de inicio del Sistema%0a
+host:1260758433=190.86.15.110
+author:1260757554=Jorge Flores
+diff:1260757554:1260757528:=2c2%0a%3c ----%0a\ No newline at end of file%0a---%0a> ---%0a\ No newline at end of file%0a
+host:1260757554=190.86.15.110
+author:1260757528=Jorge Flores
+diff:1260757528:1260755507:=1,2c1%0a%3c Esta es la página de inicio del Sistema%0a%3c ---%0a\ No newline at end of file%0a---%0a> Esta es la página de inicio del Sistema%0a\ No newline at end of file%0a
+host:1260757528=190.86.15.110
+author:1260755507=Jorge Flores
+diff:1260755507:1260755507:=1d0%0a%3c Esta es la página de inicio del Sistema%0a\ No newline at end of file%0a
+host:1260755507=190.86.15.110

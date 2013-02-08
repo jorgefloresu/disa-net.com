@@ -1,0 +1,14 @@
+Version 1.1
+
+2006-04-25  Carlos AB <carlos.ab@gmail.com>
+
+  * Complete redesign, using just divs and spans, fits in 800x600 screen resolution just fine.
+  * Xhtml 1.0 strict and css1.
+  * Most of the page actions and other infos, are hardcoded inside flckr.tmpl. That will change in the future.
+
+
+Version 1.0
+
+2006-03-01  Carlos AB <carlos.ab@gmail.com>
+
+  * First release.

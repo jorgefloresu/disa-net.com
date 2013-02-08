@@ -1,0 +1,21 @@
+version=pmwiki-2.2.8 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+author=Jorge Flores
+charset=ISO-8859-1
+csum=
+ctime=1260813367
+host=190.86.7.160
+name=Pymenet.MenuPrincipal
+rev=3
+targets=Pymenet.CrearOrdenDeCompra,Pymenet.BuscarOrdenesDeCompraPendientes
+text=Para comenzar a utilizar rápidamente el Sistema, se recomienda seguir los siguientes procesos%0a%0aPara Compras:%0a# [[Crear Orden de Compra | Crear una Orden de Compra]]%0a# [[Buscar Ordenes de Compra Pendientes | Recibir los productos de la Orden de Compra]]%0a# Ingresar la factura del proveedor%0a# Pagar al Proveedor%0a%0aPara Ventas:%0a# Crear una Orden de Ventas%0a# Despachar los productos de la Orden de Ventas%0a# Elaborar la factura del Cliente%0a# Recibir pago del Cliente%0a%0aPara Inventarios%0a# Verificar las existencias de productos
+time=1260848202
+author:1260848202=Jorge Flores
+diff:1260848202:1260848056:=5c5%0a%3c # [[Buscar Ordenes de Compra Pendientes | Recibir los productos de la Orden de Compra]]%0a---%0a> # Recibir los productos de la Orden de Compra%0a
+host:1260848202=190.86.7.160
+author:1260848056=Jorge Flores
+diff:1260848056:1260813367:=4c4%0a%3c # [[Crear Orden de Compra | Crear una Orden de Compra]]%0a---%0a> # Crear una Orden de Compra%0a
+host:1260848056=190.86.7.160
+author:1260813367=Jorge Flores
+diff:1260813367:1260813367:=1,16d0%0a%3c Para comenzar a utilizar rápidamente el Sistema, se recomienda seguir los siguientes procesos%0a%3c %0a%3c Para Compras:%0a%3c # Crear una Orden de Compra%0a%3c # Recibir los productos de la Orden de Compra%0a%3c # Ingresar la factura del proveedor%0a%3c # Pagar al Proveedor%0a%3c %0a%3c Para Ventas:%0a%3c # Crear una Orden de Ventas%0a%3c # Despachar los productos de la Orden de Ventas%0a%3c # Elaborar la factura del Cliente%0a%3c # Recibir pago del Cliente%0a%3c %0a%3c Para Inventarios%0a%3c # Verificar las existencias de productos%0a\ No newline at end of file%0a
+host:1260813367=190.86.7.160

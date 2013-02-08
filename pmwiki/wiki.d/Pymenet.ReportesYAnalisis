@@ -1,0 +1,15 @@
+version=pmwiki-2.2.8 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+author=jafu
+charset=ISO-8859-1
+csum=
+ctime=1352604453
+host=190.62.145.35
+name=Pymenet.ReportesYAnalisis
+rev=1
+targets=
+text=Para ver una ayuda de como generar y enviar información para Nestlé, ver el siguiente video:%0a[[http://www.screencast.com/t/VnZd1X92a | Enviar informacion a Nestlé]]
+time=1352604453
+author:1352604453=jafu
+diff:1352604453:1352604453:=1,2d0%0a%3c Para ver una ayuda de como generar y enviar información para Nestlé, ver el siguiente video:%0a%3c [[http://www.screencast.com/t/VnZd1X92a | Enviar informacion a Nestlé]]%0a\ No newline at end of file%0a
+host:1352604453=190.62.145.35

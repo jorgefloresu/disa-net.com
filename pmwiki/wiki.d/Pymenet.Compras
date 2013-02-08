@@ -1,0 +1,24 @@
+version=pmwiki-2.2.8 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+author=Jorge Flores
+charset=ISO-8859-1
+csum=
+ctime=1260760180
+host=190.86.7.160
+name=Pymenet.Compras
+rev=4
+targets=Pymenet.CrearOrdenDeCompra,Pymenet.BuscarOrdenesDeCompraPendientes
+text=La sección de Compras contiene las siguientes funciones:%0a%0a# [[Crear Orden de Compra | Crear Orden de Compra]]%0a# [[Buscar Ordenes de Compra Pendientes | Mantenimiento de Ordenes de Compras Pendientes]]%0a# Pagos a Proveedores%0a# Facturas de Proveedores%0a# Notas de Credito de Proveedores%0a# Asignar Pagos de Proveedores o Notas de Crédito
+time=1260849412
+author:1260849412=Jorge Flores
+diff:1260849412:1260764558:=4c4%0a%3c # [[Buscar Ordenes de Compra Pendientes | Mantenimiento de Ordenes de Compras Pendientes]]%0a---%0a> # Mantenimiento de Ordenes de Compras Pendientes%0a
+host:1260849412=190.86.7.160
+author:1260764558=Jorge Flores
+diff:1260764558:1260760955:=3c3%0a%3c # [[Crear Orden de Compra | Crear Orden de Compra]]%0a---%0a> # [[Crear Orden Compra | Crear Orden de Compra]]%0a
+host:1260764558=190.86.15.110
+author:1260760955=Jorge Flores
+diff:1260760955:1260760180:=3c3%0a%3c # [[Crear Orden Compra | Crear Orden de Compra]]%0a---%0a> # Crear Orden de Compra%0a
+host:1260760955=190.86.15.110
+author:1260760180=Jorge Flores
+diff:1260760180:1260760180:=1,8d0%0a%3c La sección de Compras contiene las siguientes funciones:%0a%3c %0a%3c # Crear Orden de Compra%0a%3c # Mantenimiento de Ordenes de Compras Pendientes%0a%3c # Pagos a Proveedores%0a%3c # Facturas de Proveedores%0a%3c # Notas de Credito de Proveedores%0a%3c # Asignar Pagos de Proveedores o Notas de Crédito%0a\ No newline at end of file%0a
+host:1260760180=190.86.15.110
